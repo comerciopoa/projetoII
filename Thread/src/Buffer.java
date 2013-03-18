@@ -24,6 +24,7 @@ public class Buffer {
     } catch (IOException e) {
         System.err.printf("Erro na abertura do arquivo: %s.\n",
         e.getMessage());
+        System.out.println(e.getMessage());
     }
  
     System.out.println();
